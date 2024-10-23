@@ -15,7 +15,7 @@ const Tabela = ({dados}) => {
             </thead>
             <tbody>
                 {dados.map((item) => (
-                    <tr key={item.nome}>
+                    <tr >
                         <td>{item.nome} </td>
                         <td>{item.idade} </td>
                     </tr>
